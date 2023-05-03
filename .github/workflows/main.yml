@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.jschwarz.dev
+        server: jschwarz.dev
         username: yt0mi_thundercat
         password: ${{ secrets.ftp_password }}
