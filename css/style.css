@@ -263,9 +263,10 @@ body {
   
   body {
     background: #ffffff;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
     color: #ffffff;
+    font-weight: 500;
   }
   
   .bold {
