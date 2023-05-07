@@ -127,7 +127,7 @@ body {
   width: 60%;
   margin: 0 5px;
   height: 5px;
-  background: #ffffff;
+  background: aqua;
   position: relative;
 }
 
@@ -240,7 +240,7 @@ body {
 }
 
 .datasprachen{
-  margin-left: 30%;
+  margin-left: 0%;
 }
 .person {
   margin-left: 0%;
@@ -382,7 +382,7 @@ body {
     width: 60%;
     margin: 0 5px;
     height: 5px;
-    background: #ffffff;
+    background: aqua;
     position: relative;
   }
   
