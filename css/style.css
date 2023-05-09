@@ -313,7 +313,7 @@ body {
   }
 
   .resume .title {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 
   .resume .resume_left .bold {
@@ -505,5 +505,6 @@ body {
 
   .title-mobile {
     display: grid;
+    
   }
 }
