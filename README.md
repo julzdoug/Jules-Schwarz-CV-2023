@@ -17,7 +17,6 @@ You can access the live demo of the website at https://jschwarz.dev
 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code for personal or commercial purposes. Please refer to the LICENSE file for more details.
 
-If you use this code as a template for your own website, it would be appreciated but not required to provide attribution by linking back to this repository.
 
 
 
