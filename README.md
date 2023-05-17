@@ -1,10 +1,13 @@
 Jules Schwarz - GitHub Profile
+
 This repository contains the code for my personal website, showcasing my skills, work experience, education, and more. The website is built using HTML, CSS, and JavaScript. It provides an overview of my background, skills, and projects.
 
-Table of Contents
+
 Description
 Demo
 License
+
+
 Description
 This website serves as my online resume and portfolio. It provides information about my professional background, skills, work experience, education, and personal projects. The website is designed to be visually appealing and user-friendly, making it easy for visitors to navigate and explore my profile.
 
