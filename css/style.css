@@ -33,7 +33,7 @@ body {
   width: 800px;
   height: auto;
   display: flex;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 
@@ -129,7 +129,7 @@ body {
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
-  width: 60%;
+  width: 80%;
   margin: 0 5px;
   height: 5px;
   background: aqua;
