@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div class="hero-section">
+    <div class="hero-content">
+        <h1 class="fade-in">Jules Schwarz</h1>
+        <p class="fade-in-delayed">Full Stack Developer & Creative Technologist</p>
+        <div class="scroll-indicator fade-in-delayed-2">
+            <span>Scroll to explore</span>
+            <div class="mouse"></div>
+        </div>
+    </div>
+</div>
+
+<section class="about-section slide-in">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="{{ "images/profile.jpg" | relURL }}" alt="Profile" class="profile-img bounce-in">
+            </div>
+            <div class="col-md-8">
+                <p class="lead">Welcome to my portfolio. I'm a passionate developer with expertise in web technologies and creative problem-solving.</p>
+                <p>This Hugo site showcases my work and experience with smooth animations and modern design.</p>
+                <a href="{{ "Aboutme.html" | relURL }}" class="btn btn-primary mt-3">Learn more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projects-section">
+    <div class="container">
+        <h2>Recent Work</h2>
+        <div class="row">
+            {{ range .Data.Pages }}
+            <div class="col-md-6 mb-4">
+                <div class="project-card slide-in-right">
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Summary }}</p>
+                    {{ if .Params.link }}<a href="{{ .Params.link }}" class="btn btn-primary">View Project</a>{{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container text-center">
+        <p>&copy; 2026 Jules Schwarz. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</footer>
+{{ end }}

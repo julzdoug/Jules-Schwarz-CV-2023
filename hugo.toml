@@ -1,0 +1,8 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Jules Schwarz"
+theme = "personnaltheme"
+
+[params]
+  author = "Jules Schwarz"
+  description = "Personal CV and Portfolio"
