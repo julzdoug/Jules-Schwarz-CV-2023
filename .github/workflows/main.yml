@@ -8,9 +8,21 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
     
-    - name: 📂 Sync files
+    - name: � Build Hugo site
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.120.4'
+        extended: false
+    
+    - name: 🔧 Build with Hugo
+      run: hugo --minify
+    
+    - name: 📂 Sync built site to FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: jschwarz.dev
         username: yt0mi_thundercat
         password: ${{ secrets.ftp_password }}
+        local-dir: ./public/
+        server-dir: /
+        state-name: .ftp-deploy-sync-state.json
